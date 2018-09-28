@@ -34,6 +34,4 @@ Since Masari is private and decentralized, it is free from censorship as nobody 
 Private
 In total, Masari aims at furthering privacy while advancing its own protocol. Whatever Masari develops will be free for public scrutiny as it is open source therefore open to the public for review. In doing so, Masari will push code upstream to Monero as well as make our new privacy features available to the public. In addition, every transaction in the Masari blockchain from the genesis block to now has used the same ringsize. Masari coins are fungible, meaning every coin is interchangable and indistinguishable from one another. All transaction and address data is hidden using RingCT and Cryptonote protocol. There is no rich list, there is no public record and you are totally anonymous in every way.
                                
-
-
-
+Courtesy of ThaerK, BazookaJeff, TheDawson, and LodoCrypto. 2018. 
