@@ -2,14 +2,14 @@
 										
  Was ist Masari?
 
-Masari (MSR) ist eine auf Skalierbarkeit und Privatsphäre ausgerichtete Kryptowährung
-auf Basis von Monero.
-Einer der ersten großen Beiträge ist ein notwendiges Update, das einen der am
-bekanntesten Schwierigkeitsalgorithmen implementiert, um Flash-Mining-Probleme als
-neuen Altcoin zu entschärfen. MSR wird die wichtigsten Änderungen Upstream von
-Monero verfolgen und, wenn möglich, einen Beitrag leisten (z.B. den WHMSchwierigkeitsalgorithmus). Zukünftige Features werden das uncle mining (unter
-Verwendung des DECOR+ Protokolls) und ein Whitepaper über ein Blocktree Protokoll
-beinhalten, welches auf die Lösung der On-Chain-Skalierbarkeit abzielt.
+Masari (MSR) ist eine auf Monero basierende Kryptowährung die auf Skalierbarkeit und Privatsphäre ausgerichtet ist.
+Um Flash-Mining-Problemen zu entgehen an denen neue Altcoins oft leiden wurde als einer der ersten 
+großen Beiträge ein neuer Schwierigkeitsalgorythmus implementiert.
+MSR wird die wichtigsten Änderungen Upstream von
+MSR wird die wichtigsten Upstream Änderungen von Monero übernehmen und wenn möglich auch einen Beitrag dazu leisten 
+(z.B. den WHM Schwierigkeistalgorythmus).
+ZZukünftige Features sind das Uncle Mining (unter Verwendung des SECOR+ Protokolls) und ein Whitepaper 
+über ein Blocktree Protokoll welches auf eine Lösung des On-Chain-Skalierbarkeitsproblem abziehlt.
 https://getmasari.org/
 
 Spezifikationen:
