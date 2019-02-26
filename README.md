@@ -35,7 +35,7 @@ spelling, punctualization, and grammar.
 
 ## 5. People
 
-If you are stuck and or have questions you can reach [@bazookajeff](https://twitter.com/bazookajeff) on all of Masari's platforms ([Twitter](https://twitter.com/masaricurrency)(https://www.reddit.com/r/masari), [Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency), etc). You can also reach [LoDoCrypto](https://www.reddit.com/user/LoDoCrypto) via the same channels. 
+If you are stuck and or have questions you can reach [@bazookajeff](https://twitter.com/bazookajeff) on all of Masari's platforms ([Twitter](https://twitter.com/masaricurrency), [Reddit](https://www.reddit.com/r/masari), [Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency), etc). You can also reach [LoDoCrypto](https://www.reddit.com/user/LoDoCrypto) via the same channels. 
 
 ## 6. Support Masari
 
