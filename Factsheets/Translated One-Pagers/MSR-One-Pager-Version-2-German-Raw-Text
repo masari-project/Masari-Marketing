@@ -1,6 +1,6 @@
 
 										
- Wat ist Masari?
+ Was ist Masari?
 
 Masari (MSR) ist eine auf Skalierbarkeit und Privatsphäre ausgerichtete Kryptowährung
 auf Basis von Monero.
@@ -12,7 +12,7 @@ Verwendung des DECOR+ Protokolls) und ein Whitepaper über ein Blocktree Protoko
 beinhalten, welches auf die Lösung der On-Chain-Skalierbarkeit abzielt.
 https://getmasari.org/
 
-Specifikationen:
+Spezifikationen:
 Die meisten Spezifikationen entsprechen denen von Monero:
 * PoW algorithm: CryptoNight-Fast
 * Max. Versorgung: ~18.5 million (mit tail emission)
@@ -35,7 +35,7 @@ https://www.cryptunit.com/
 https://www.cryptoisme.com/
 https://coinmarketcap.com/currencies/masari/
 
-Forschung:
+Entwicklung:
 https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf
 https://github.com/masari-project/research-corner/blob/master/wwhm/wwhm.pdf
 https://lab.getmonero.org/pubs/MRL-0005.pdf - RCT 
