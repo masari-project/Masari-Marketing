@@ -36,5 +36,24 @@ spelling, punctualization, and grammar.
 
 If you are stuck and or have questions you can reach @bazookajeff on all of Masari's platforms ([Twitter](https://twitter.com/bazookajeff), [Reddit](https://www.reddit.com/user/boomboombazookajeff), Discord, Telegram, etc). You can also reach [LoDoCrypto](https://www.reddit.com/user/LoDoCrypto) via the same channels. 
 
+## Support Masari
+
+People are what make good projects great and Masari is no different. Please consider donating and or working on the Masari Project.
+
+If you'd like to show your support to the project with a donation, please send to the following addresses:
+
+Masari: 5nYWvcvNThsLaMmrsfpRLBRou1RuGtLabUwYH7v6b88bem2J4aUwsoF33FbJuqMDgQjpDRTSpLCZu3d XpqXicE2uSWS4LUP
+
+viewkey:
+
+99e21e00cce073c126e9aed800c9e2e82518534b3924b035a29436ff4f75bc0c
+
+Monero: 4A57eA3so6bEE8FUcaN1KtMXD3sxjjbvcKD3MF1pUgRi5PNHTpB7sYN2DmJv3EXxtZCWeG88tsVLzdf ZJcmUFm52SbrfJWr
+
+viewkey:
+
+c7a7c141581ac4436ba8bfb81dd67234720c565c696ef154a25c7e7314ce4b08
+
+Bitcoin: 1J1he4qtTuNpCxyEBozkeKfDpoeYxfE3rj
 
 
