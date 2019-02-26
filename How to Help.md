@@ -11,6 +11,7 @@ Anybody can help contribute to the Masari Marketing efforts so long as it does n
 3. [Translating](#3-translating)
 4. [Spelling and Proofreading](#4-spelling-and-proofreading)
 5. [People](#5-people)
+6. [Support Masari](#6-support-masari)
 
 ## 1. Editing and Writing
 
@@ -36,7 +37,7 @@ spelling, punctualization, and grammar.
 
 If you are stuck and or have questions you can reach @bazookajeff on all of Masari's platforms ([Twitter](https://twitter.com/bazookajeff), [Reddit](https://www.reddit.com/user/boomboombazookajeff), Discord, Telegram, etc). You can also reach [LoDoCrypto](https://www.reddit.com/user/LoDoCrypto) via the same channels. 
 
-## Support Masari
+## 6. Support Masari
 
 People are what make good projects great and Masari is no different. Please consider donating and or working on the Masari Project.
 
