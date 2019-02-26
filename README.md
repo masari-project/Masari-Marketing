@@ -12,6 +12,7 @@ Anybody can help contribute to the Masari Marketing efforts so long as it does n
 4. [Spelling and Proofreading](#4-spelling-and-proofreading)
 5. [People](#5-people)
 6. [Support Masari](#6-support-masari)
+7. [What to do if You Are Not Familiar With Github](#7-What-to-do-if-You-Are-Not-Familiar-With-Github)
 
 ## 1. Editing and Writing
 
@@ -56,4 +57,13 @@ viewkey:
 c7a7c141581ac4436ba8bfb81dd67234720c565c696ef154a25c7e7314ce4b08
 
 Bitcoin: 1J1he4qtTuNpCxyEBozkeKfDpoeYxfE3rj
+
+## 7. What to do if You Are Not Familiar With Github
+
+You can reach out to [BazookaJeff]( https://twitter.com/bazookajeff) on Twitter to help you get started. Github can look pretty daunting but it’s actually fairly straightforward getting started. If you have experience with image manipulators, word processors, and or editing, you can get started in a few simple steps. You can read this guide [here]( https://help.github.com/en/articles/creating-a-pull-request) about how to create a pull request. 
+
+Please note that if you fork the project and or edit it, it will make your own copy and you will not harm the project in any way. Once you fork the project and make some changes locally, you can submit your work via a pull request to be merged into the project. Full images can simply be uploaded into the appropriate folder. 
+
+In short, don’t let using Github hinder you from contributing as all help is needed and welcome at Masari!
+
 
