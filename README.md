@@ -17,7 +17,7 @@ Anybody can help contribute to the Masari Marketing efforts so long as it does n
 ## 1. Editing and Writing
 
 When you are editing text, keep in mind that Masari uses specific terminology and words. When you are editing text and or creating text, it is advised that you try to keep your writing similar to Masari's overall language and image. 
-Further, if you have an idea for a new text project, contact [@bazookajeff](https://twitter.com/bazookajeff) on Twitter.
+Further, if you have an idea for a new text project, contact [Bazookajeff](https://twitter.com/bazookajeff).
 
 ## 2. Adding your Files
 
@@ -31,12 +31,12 @@ to language that has been used for Masari.
 
 ## 4. Spelling and Proofreading
 
-When you are proofreading your document, have a volunteer look it over when you are done. Consider using a word processor to do your first pass on your document and then a volunteer. It is advisable to look for common mistakes such 
+When you are proofreading your document, have a volunteer look it over when you are done. Consider using a word processor to do your first pass on your document and than a volunteer. It is advisable to look for common mistakes such 
 spelling, punctualization, and grammar. 
 
 ## 5. People
 
-If you are stuck and or have questions you can reach [@bazookajeff](https://twitter.com/bazookajeff) on all of Masari's platforms ([Twitter](https://twitter.com/masaricurrency), [Reddit](https://www.reddit.com/r/masari), [Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency), etc). You can also reach [LoDoCrypto](https://www.reddit.com/user/LoDoCrypto) via the same channels. 
+If you are stuck and or have questions you can reach [Bazookajeff](https://twitter.com/bazookajeff) on all of Masari's platforms ([Twitter](https://twitter.com/masaricurrency), [Reddit](https://www.reddit.com/r/masari), [Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency), etc). You can also reach [LoDoCrypto](https://www.reddit.com/user/LoDoCrypto) via the same channels. 
 
 ## 6. Support Masari
 
