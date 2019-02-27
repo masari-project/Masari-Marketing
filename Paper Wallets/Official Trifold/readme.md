@@ -1,4 +1,4 @@
-Instructions: 
+## Instructions: 
 
 1. Copy and paste your wallets QR codes into the PNG document. 
 
