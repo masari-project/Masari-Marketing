@@ -9,7 +9,7 @@ It is not meant to be a complex guide to the project but rather a guide to the p
 
 If you would like to contribute to the brochure's creation, simply start a pull request on the text version of the document. 
 Any changes to the text version will be updated to the publisher version of the document. If you have any questions, you can 
-reach out to the Brochure's maintainer [BazookaJeff](https://twitter.com/bazookajeff). 
+reach out to the brochure's maintainer [BazookaJeff](https://twitter.com/bazookajeff). 
 
 ## Sharing the Brochure
 
