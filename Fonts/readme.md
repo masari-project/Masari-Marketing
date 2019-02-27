@@ -1,3 +1,3 @@
-# To Install: 
+## To Install: 
 
-##extract to C:Windows/Fonts
+### extract to C:Windows/Fonts
