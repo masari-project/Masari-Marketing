@@ -17,3 +17,8 @@ The brochure is meant to be printer friendly and easy to print out. It is advise
 sided white paper. Good places to leave the brochure would be areas of high traffic such as universities, commercial establishments, 
 and Masari Meetups. It is also advisable to show good judgement in where you leave these brochures, so getting permission to leave them
 in your desired location is advised. 
+
+## Preview
+![page 1](https://github.com/masari-project/Masari-Marketing/blob/master/Brochures/Masari%20Brochure%209%20Front.png)
+![page 2](https://github.com/masari-project/Masari-Marketing/blob/master/Brochures/Masari%20Brochure%209%20Back.png)
+&nbsp;
