@@ -12,3 +12,7 @@ them manually, however, the quality will not be the same as the second method.
 
 The second method of using the sticker sheet involves using a die cutting machine. Simply trace the guide in the sticker sheet 
 in your die cutter's software. 
+
+## Preview
+![Masari QR Stickers](https://github.com/masari-project/Masari-Marketing/blob/master/Sticker%20Sheets/Plain_Masari_Sticker_Sheet_With_QR.png)
+&nbsp;
