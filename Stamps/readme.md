@@ -9,3 +9,7 @@
 ## Answer: 
 
 In total, 18 USC 333 is written to prohibit the malicious destruction of currency and 18 USC 475 is written to prevent currency from becoming used for commercial advertising. So long as you use it to express a political message free of any profit motives, you are not breaking any laws as this is protected by the 1st amendment which protects free speech.
+
+## Preview
+![Stamp](https://github.com/masari-project/Masari-Marketing/blob/master/Stamps/Masari_Stamp_Black_Outline_Transparent.png)
+&nbsp;
