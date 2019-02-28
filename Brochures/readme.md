@@ -13,7 +13,7 @@ reach out to the brochure's maintainer [BazookaJeff](https://twitter.com/bazooka
 
 ## Sharing the Brochure
 
-The brochure is meant to be printer friendly. It is advised that you print out the publisher file on double sided and on white paper. Good places to leave the brochure would be areas of high traffic such as universities, commercial establishments, 
+The brochure is meant to be printer friendly. It is advised that you print out the publisher file double sided and on white paper. Good places to leave the brochure would be areas of high traffic such as universities, commercial establishments, 
 and Masari Meetups. It is also advisable to show good judgement in where you leave these brochures, so getting permission to leave them
 in your desired location is preferred. 
 
