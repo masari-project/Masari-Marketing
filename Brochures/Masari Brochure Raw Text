@@ -45,7 +45,7 @@ Scalable is achieved by our new scaling feature that will use a new technology c
 
 Secure
 
-Secure is achieved by our implementation of Uncle mining using DECOR+. It will be added in the near future to ensure more network security and for safely reducing block emission rates for better network latency. In addition, Masari has implemented our first-of-its-kind Proof of Work, called CryptoNight-Fast, to secure against network attacks, foster stability, and make mining more egalitarian. Furthermore, in order to stop problems like flash mining, Masari uses an effective DAA. This WWHM/LWMA algorithm also took into consideration our parent project Monero by submitting a pull request back upstream. 
+Secure is achieved by our implementation of Uncle mining using DECOR+. This feature, called SECOR ensures more network security and for safely reducing block emission rates for better network latency. In addition, Masari has implemented our first-of-its-kind Proof of Work, called CryptoNight-Fast, to secure against network attacks, foster stability, and make mining more egalitarian. Furthermore, in order to stop problems like flash mining, Masari uses an effective DAA. This WWHM/LWMA algorithm also took into consideration our parent project Monero by submitting a pull request back upstream. 
 
 Private
 
