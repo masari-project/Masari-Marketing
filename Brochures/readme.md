@@ -3,7 +3,7 @@
 ## What is it and What Purpose Does it Serve?
 
 The Masari brochure is aimed at giving the average person enough information to be informed and aware of The Masari Project.
-It is not meant to be a complex guide to the project but rather a guide to the project. 
+It is not meant to be a complex guide to the project but rather give an overiew of the project. 
 
 ## Contributing
 
