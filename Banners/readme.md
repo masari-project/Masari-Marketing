@@ -5,7 +5,7 @@ release to maintain uniformity and consistency across platforms.
 
 ## Contributing
 
-If you would like to contribue a banner, please reach out to the Masari Core Team via one of our social media channels
+If you would like to contribute a banner, please reach out to the Masari Core Team via one of our social media channels
 ([Twitter](https://twitter.com/masaricurrency), [Reddit](https://www.reddit.com/r/masari), [Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency), etc).
 
 ## Preview
