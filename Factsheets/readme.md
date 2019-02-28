@@ -8,7 +8,7 @@ about the project.
 
 All help is welcome on these factsheets. To contribute, simply start a pull request on the raw text version of the document. Any changes 
 will be updated in the png and jpg formats of the document by the document's maintainer [BazookaJeff](https://twitter.com/bazookajeff). 
-Areas that need help are: spelling, grammar, wording, style, and adding to the document. 
+Areas that need help are: spelling, grammar, wording, style, and other general additions to the document. 
 
 ## Preview
 
