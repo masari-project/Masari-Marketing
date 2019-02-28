@@ -1,6 +1,6 @@
 ## About the Official Wallets
 
-Here you will find a collection of the official MSR wallets. If you would like to add your own wallet to the collection, initiate a pull
+Here you will find a collection of the official Masari wallets. If you would like to add your own wallet to the collection, initiate a pull
 request to upload your design to the proper folder. It is also advisable to reach out to community members to field your design before
 you initiate a pull request. You can do this by reaching out to people on our official social media channels 
 ([Twitter](https://twitter.com/masaricurrency), [Reddit](https://www.reddit.com/r/masari), [Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency), etc).
