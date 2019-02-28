@@ -1,6 +1,6 @@
 ## About the Logos
 
-Here you will find a collection of the official Masari logos. So far we have:
+Here you will find a collection of the official Masari logos:
 
 * Donate Masari
 * Masari Research Corner
