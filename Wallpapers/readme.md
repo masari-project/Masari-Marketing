@@ -4,4 +4,4 @@ Here you will find a collection of wallpapers for Masari. To add you own, upload
 
 ## Preview
 
-![Masari Wallpaper](https://github.com/masari-project/Masari-Marketing/blob/master/Wallpapers/Masari_Digital_Cash.png)
+![Masari Wallpaper](https://github.com/masari-project/Masari-Marketing/blob/master/Wallpapers/Masari_Green_Wallpaper.png)
