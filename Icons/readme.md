@@ -15,3 +15,9 @@ added.
 ## 5. People
 
 If you are stuck and or have questions you can reach the Masari icon's maintainer [Bazookajeff](https://twitter.com/bazookajeff).
+
+## Preview
+![Masari Candlesticks](https://github.com/masari-project/Masari-Marketing/blob/master/Icons/masari_chart_candlesticks_paper.png)
+![Masari Vault](https://github.com/masari-project/Masari-Marketing/blob/master/Icons/msr_vault.png)
+![Masari People](https://github.com/masari-project/Masari-Marketing/blob/master/Icons/msrpeople.png)
+&nbsp;
