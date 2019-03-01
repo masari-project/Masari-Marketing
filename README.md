@@ -24,6 +24,8 @@ Further, if you have an idea for a new text project, contact [Bazookajeff](https
 It is advised for you to try out your files before you submit them via pull request, else we will waste time and it will not be a fruitful endeavor. Files need to be reviewed before they are submitted. Please have somebody do this 
 before you try to add your file. 
 
+It is advised that you send you pull request to the markdown files (.md) or the raw text files if you are unfamiliar with markdown files. [Here](https://guides.github.com/features/mastering-markdown/) is a tutorial that explains how to add and edit a markdown file. 
+
 ## 3. Translating
 
 When you are translating text for Masari, it is important to try to keep the meaning intact as sometimes the literal translation does not do as well as a different translation. It is also important to stay consistent in your language
@@ -60,7 +62,7 @@ Bitcoin: 1J1he4qtTuNpCxyEBozkeKfDpoeYxfE3rj
 
 ## 7. What to do if You Are Not Familiar With Github
 
-You can reach out to [BazookaJeff]( https://twitter.com/bazookajeff) on Twitter to help you get started. Github can look pretty daunting but it’s actually fairly straightforward getting started. If you have experience with image manipulators, word processors, and or editing, you can get started in a few simple steps. You can read this guide [here]( https://help.github.com/en/articles/creating-a-pull-request) about how to create a pull request. 
+You can reach out to [BazookaJeff]( https://twitter.com/bazookajeff) on Twitter to help you get started. Github can look pretty daunting but it’s actually fairly straightforward getting started. If you have experience with image manipulators, word processors, and or editing, you can get started in a few simple steps. You can read this guide [here]( https://help.github.com/en/articles/creating-a-pull-request) about how to create a pull request. For a broad overview of using Github, go [here](https://guides.github.com/activities/hello-world/). 
 
 Please note that if you fork the project and or edit it, it will make your own copy and you will not harm the project in any way. Once you fork the project and make some changes locally, you can submit your work via a pull request to be merged into the project. Full images can simply be uploaded into the appropriate folder. 
 
