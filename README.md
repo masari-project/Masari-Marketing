@@ -16,7 +16,7 @@ Anybody can help contribute to the Masari Marketing efforts so long as it does n
 
 ## 1. Editing and Writing
 
-When you are editing text, keep in mind that Masari uses specific terminology and words. When you are editing text and or creating text, it is advised that you try to keep your writing similar to Masari's overall language and image. 
+When you are editing text, keep in mind that Masari uses specific terminology and words. When you are editing text and / or creating text, it is advised that you try to keep your writing similar to Masari's overall language and image. 
 Further, if you have an idea for a new text project, contact [Bazookajeff](https://twitter.com/bazookajeff).
 
 ## 2. Adding your Files
@@ -24,7 +24,7 @@ Further, if you have an idea for a new text project, contact [Bazookajeff](https
 It is advised for you to try out your files before you submit them via pull request, else we will waste time and it will not be a fruitful endeavor. Files need to be reviewed before they are submitted. Please have somebody do this 
 before you try to add your file. 
 
-It is advised that you send you pull request to the markdown files (.md) or the raw text files if you are unfamiliar with markdown files. [Here](https://guides.github.com/features/mastering-markdown/) is a tutorial that explains how to add and edit a markdown file. 
+It is advised that you send your pull request to the markdown files (.md) or the raw text files if you are unfamiliar with markdown files. [Here](https://guides.github.com/features/mastering-markdown/) is a tutorial that explains how to add and edit a markdown file. 
 
 ## 3. Translating
 
@@ -33,8 +33,7 @@ to language that has been used for Masari.
 
 ## 4. Spelling and Proofreading
 
-When you are proofreading your document, have a volunteer look it over when you are done. Consider using a word processor to do your first pass on your document and than a volunteer. It is advisable to look for common mistakes such 
-spelling, punctualization, and grammar. 
+When you are proofreading your document, have a volunteer look it over when you are done. Consider using a word processor to do your first pass on your document and then a volunteer. It is advisable to look for common mistakes such as spelling, punctualization, and grammar. 
 
 ## 5. People
 
@@ -42,7 +41,7 @@ If you are stuck and or have questions you can reach [Bazookajeff](https://twitt
 
 ## 6. Support Masari
 
-People are what make good projects great and Masari is no different. Please consider donating and or working on the Masari Project.
+People are what make good projects great and Masari is no different. Please consider donating and / or working on the Masari Project.
 
 If you'd like to show your support to the project with a donation, please send to the following addresses:
 
@@ -62,9 +61,9 @@ Bitcoin: 1J1he4qtTuNpCxyEBozkeKfDpoeYxfE3rj
 
 ## 7. What to do if You Are Not Familiar With Github
 
-You can reach out to [BazookaJeff]( https://twitter.com/bazookajeff) on Twitter to help you get started. Github can look pretty daunting but it’s actually fairly straightforward getting started. If you have experience with image manipulators, word processors, and or editing, you can get started in a few simple steps. You can read this guide [here]( https://help.github.com/en/articles/creating-a-pull-request) about how to create a pull request. For a broad overview of using Github, go [here](https://guides.github.com/activities/hello-world/). 
+You can reach out to [BazookaJeff]( https://twitter.com/bazookajeff) on Twitter to help you get started. Github can look pretty daunting but it’s actually fairly straightforward getting started. If you have experience with image manipulators, word processors, and / or editing, you can get started in a few simple steps. You can read this guide [here]( https://help.github.com/en/articles/creating-a-pull-request) about how to create a pull request. For a broad overview of using Github, go [here](https://guides.github.com/activities/hello-world/). 
 
-Please note that if you fork the project and or edit it, it will make your own copy and you will not harm the project in any way. Once you fork the project and make some changes locally, you can submit your work via a pull request to be merged into the project. Full images can simply be uploaded into the appropriate folder. 
+Please note that if you fork the project and / or edit it, it will make your own copy and you will not harm the project in any way. Once you fork the project and make some changes locally, you can submit your work via a pull request to be merged into the project. Full images can simply be uploaded into the appropriate folder. 
 
 In short, don’t let using Github hinder you from contributing as all help is needed and welcome at Masari!
 
