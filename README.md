@@ -33,7 +33,7 @@ to language that has been used for Masari.
 
 ## 4. Spelling and Proofreading
 
-When you are proofreading your document, have a volunteer look it over when you are done. Consider using a word processor to do your first pass on your document and then a volunteer. It is advisable to look for common mistakes such as spelling, punctualization, and grammar. 
+When you are proofreading your document, have a volunteer look it over when you are done. Consider using a word processor to do your first pass on your document and then a volunteer. It is advisable to look for common mistakes such as spelling, punctuation, and grammar. 
 
 ## 5. People
 
