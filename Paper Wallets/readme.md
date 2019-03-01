@@ -5,9 +5,9 @@ request to upload your design to the proper folder. It is also advisable to reac
 you initiate a pull request. You can do this by reaching out to people on our official social media channels 
 ([Twitter](https://twitter.com/masaricurrency), [Reddit](https://www.reddit.com/r/masari), [Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency), etc).
 
-## 5. People
+## People
 
-If you are stuck and or have questions you can reach [Bazookajeff](https://twitter.com/bazookajeff).
+If you are stuck and / or have questions you can reach [Bazookajeff](https://twitter.com/bazookajeff).
 
 ## Preview
 
