@@ -5,6 +5,6 @@ This is not meant to contain public keys.
 
 ## Preview:
 
-![bcard](https://github.com/Satori-Nakamoto/Masari-Marketing/blob/master/Paper%20Wallets/Business%20Card/paper_business_card_example.png)
-![bcard_min](https://github.com/Satori-Nakamoto/Masari-Marketing/blob/master/Paper%20Wallets/Business%20Card/minimalistic_bcard_example.png)
+![bcard](https://github.com/Satori-Nakamoto/Masari-Marketing/blob/master/Paper%20Wallets/Business%20Card/business_card_example.png)
+![bcard_min](https://github.com/Satori-Nakamoto/Masari-Marketing/blob/master/Paper%20Wallets/Business%20Card/minimalistic_example.png)
 &nbsp;
