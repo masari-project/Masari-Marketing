@@ -1,4 +1,4 @@
-#Masari Strategy: Getting to Know the Mobile Wallet
+# Masari Strategy: Getting to Know the Mobile Wallet
 
 This educational activity is designed to show the new user how to use the Mobile Wallet.
 
