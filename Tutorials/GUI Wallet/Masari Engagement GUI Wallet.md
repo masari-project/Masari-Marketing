@@ -1,4 +1,4 @@
-Masari Outreach: Getting to Know the GUI Wallet
+# Masari Outreach: Getting to Know the GUI Wallet
 
 This educational activity is designed to show the new user how to use the Graphical User Interface (GUI) Wallet. 
 Download the Official Masari Wallet
