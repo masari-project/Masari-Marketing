@@ -11,7 +11,7 @@ If you would like to contribute to these tutorials, simply start a pull request 
 
 ## Pointers for a Masari Meetup
 
-Reach out to other members through one of our social media channels ([Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency),[Forum](https://forum.getmasari.org/)). 
+Reach out to other members through one of our social media channels ([Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency), [Forum](https://forum.getmasari.org/)). 
 
 ## Preview
 
