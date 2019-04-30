@@ -17,6 +17,10 @@ This, however, doesnt prevent any hardware based attacks such as [Spectre and Me
 
 It should go without saying, but it is up to **you** to determine threat level and act accordingly.
 
+You can get [printable paper wallets here](https://github.com/masari-project/Masari-Marketing/tree/master/Paper%20Wallets)
+. 
+
+
 ## Using A Hot Computer (least secure):
 
 **Skill Required:**
@@ -68,6 +72,8 @@ This option requires a moderate understanding of Linux, Masari, network security
 
 *1x Hot Computer*
 
+*RECOMMENDED: 1x air-gapped computer*
+
 *2x USB Stick (3+ is helpful)*
 
 *1x Paper*
@@ -82,7 +88,7 @@ This option requires a moderate understanding of Linux, Masari, network security
 2. Check that the sha256sum is `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
 3. Format your USB stick and copy the checked wallet generator onto it
 4. Remove the USB stick, unplug / disable internet access, and shut down the computer.
-5. After booting into a Linux distro (Linux Mint is recommended for people who are used to Windows OS), plug in your USB stick and navigate to it. Paranoid users can double check that the sha256sum is still the same by opening a terminal, navigating to the location of the ZIP file and typing `sha256sum masari-wallet-generator-master.zip`
+5. After booting into a Linux distro (Linux Mint is recommended for people who are used to Windows OS) on your hot computer (or better yet, on an air-gapped machine) plug in your USB stick and navigate to it. Paranoid users can double check that the sha256sum is still the same by opening a terminal, navigating to the location of the ZIP file and typing `sha256sum masari-wallet-generator-master.zip`
 6. Unzip the file and open `masari-wallet-generator.html`.
 7. Click "GENERATE WALLET", which will generate four important items:
  * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
