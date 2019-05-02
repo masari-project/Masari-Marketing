@@ -17,6 +17,10 @@ This, however, doesnt prevent any hardware based attacks such as [Spectre and Me
 
 It should go without saying, but it is up to **you** to determine threat level and act accordingly.
 
+You can get [printable paper wallets here](https://github.com/masari-project/Masari-Marketing/tree/master/Paper%20Wallets)
+. 
+
+
 ## Using A Hot Computer (least secure):
 
 **Skill Required:**
@@ -48,7 +52,7 @@ This option requires a moderate understanding of Masari and little computer know
  * Private view key: Used to view transactions entering the wallet.  Commonly this is used to setup a [view-only wallet]() on a hot computer which can see incoming transactinos live on the blockchain as they are sent to your cold wallet.
 6. On a piece of paper, **NEATLY** write down your *mnemonic seed*, *private spend key*, *private view key*, and *public address*.
  * Either check 3 times that everything is correct or physically write everything 3 times.
- * **DO NOT LOOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
+ * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
 7. OPTIONAL: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later.
 
 (1) This USB can be used with relative abandon.  The only consequence being, if someone gets ahold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
@@ -62,13 +66,15 @@ This option requires a moderate understanding of Masari and little computer know
 
 **Skill Required:**
 
-This option requires a moderate understanding of Monero, network security, and general computer knowledge.
+This option requires a moderate understanding of Linux, Masari, network security, and general computer knowledge.
 
 **Hardware/Software Required:**
 
 *1x Hot Computer*
 
-*1x USB Stick (3 is helpful)*
+*RECOMMENDED: 1x air-gapped computer*
+
+*2x USB Stick (3+ is helpful)*
 
 *1x Paper*
 
@@ -78,6 +84,25 @@ This option requires a moderate understanding of Monero, network security, and g
 
 **Generating the Wallet:**
 
-Follow the instructions here: https://www.reddit.com/r/masari/comments/89tis3/masariusbcoldwalletgenerator_100_initial_release/
+1. On your hot computer, navigate to https://github.com/masari-project/masari-wallet-generator and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP". 
+2. Check that the sha256sum is `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
+3. Format your USB stick and copy the checked wallet generator onto it
+4. Remove the USB stick, unplug / disable internet access, and shut down the computer.
+5. After booting into a Linux distro (Linux Mint is recommended for people who are used to Windows OS) on your hot computer (or better yet, on an air-gapped machine) plug in your USB stick and navigate to it. Paranoid users can double check that the sha256sum is still the same by opening a terminal, navigating to the location of the ZIP file and typing `sha256sum masari-wallet-generator-master.zip`
+6. Unzip the file and open `masari-wallet-generator.html`.
+7. Click "GENERATE WALLET", which will generate four important items:
+ * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
+ * Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
+ * Private spend key: Used to send funds from the wallet.
+ * Private view key: Used to view transactions entering the wallet.  Commonly this is used to setup a [view-only wallet]() on a hot computer which can see incoming transactinos live on the blockchain as they are sent to your cold wallet.
+8. On a piece of paper, **NEATLY** write down your *mnemonic seed*, *private spend key*, *private view key*, and *public address*. Alternatively (and more conveniently), print these out using a printer that has no wifi capability, has never been connected to the internet, and never will be. The older the printer, the better. You can also copy them to freshly bought USB sticks that have never been connected to the internet, and never will be. Paranoid users can keep 1 copy of printed wallet info and 1 copy of digital wallet info in a safe in their house, and 1 copy of printed wallet info and 1 copy of digital wallet info in a sealed plastic bag filled with rice, inside a PVC pipe that is sealed on both ends with 4" of silicone, buried under the birdbath.
+ * Either check 3 times that everything is correct or physically write everything 3 times.
+ * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
+9. OPTIONAL: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later.
 
-If you are not comfortable downloading a user created zip file, you can download the individual files yourself (links provided in guide), and then follow the guide.
+(1) This USB can be used with relative abandon.  The only consequence being, if someone gets ahold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
+
+8. Delete any copy of the wallet generator left over on the device you used.
+9. Restart your computer back into your normal OS.
+10. Reconnect to the internet.
+11. Congrats! You sucessfully generated a paper wallet.
