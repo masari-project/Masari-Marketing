@@ -1,13 +1,15 @@
 ## About the Official Wallets
 
-Here you will find a collection of the official Masari wallets. If you would like to add your own wallet to the collection, initiate a pull
+Here you will find a collection of official Masari wallets. If you would like to add your own wallet to the collection, initiate a pull
 request to upload your design to the proper folder. It is also advisable to reach out to community members to field your design before
 you initiate a pull request. You can do this by reaching out to people on our official social media channels 
 ([Twitter](https://twitter.com/masaricurrency), [Reddit](https://www.reddit.com/r/masari), [Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency), etc).
 
+Here is a guide to [securely creating a wallet](https://github.com/masari-project/Masari-Marketing/blob/master/Tutorials/Paper%20Wallet/paper-wallet-guide.md), which you can then print out onto any style of paper wallet or business card.
+
 ## People
 
-If you are stuck and / or have questions you can reach [Bazookajeff](https://twitter.com/bazookajeff).
+If you are stuck and / or have questions you can reach [Bazookajeff](https://twitter.com/bazookajeff) or ask SatoriNakamoto in Discord.
 
 ## Preview
 
