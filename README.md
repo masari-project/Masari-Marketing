@@ -11,8 +11,9 @@ Anybody can help contribute to the Masari Marketing efforts so long as it does n
 3. [Translating](#3-translating)
 4. [Spelling and Proofreading](#4-spelling-and-proofreading)
 5. [People](#5-people)
-6. [Support Masari](#6-support-masari)
-7. [What to do if You Are Not Familiar With Github](#7-What-to-do-if-You-Are-Not-Familiar-With-Github)
+6. [Website](#6-website)
+7. [Support Masari](#6-support-masari)
+8. [What to do if You Are Not Familiar With Github](#7-What-to-do-if-You-Are-Not-Familiar-With-Github)
 
 ## 1. Editing and Writing
 
@@ -39,7 +40,13 @@ When you are proofreading your document, have a volunteer look it over when you 
 
 If you are stuck and or have questions you can reach [Bazookajeff](https://twitter.com/bazookajeff) on all of Masari's platforms ([Twitter](https://twitter.com/masaricurrency), [Reddit](https://www.reddit.com/r/masari), [Discord](https://discord.gg/sMCwMqs), [Telegram](https://t.me/masaricurrency), etc). You can also reach [LoDoCrypto](https://www.reddit.com/user/LoDoCrypto) via the same channels. 
 
-## 6. Support Masari
+## 6. Website
+
+Contributing to and modifying getmasari.org
+
+Since late 2018, the "official" masari website has been hosted on github. This way everything on the site is completely transparent and *anybody* can propose changes. To propose changes to this site you need a github account. Then you can fork the site's source at https://github.com/masari-project/masari-project.github.io. This github repo acts as a directory on a webserver; any file and subdirectory in this repo will be accessible under the getmasari.org domain. The structure for the current site was made by a community member and is wordpress-esque. Admittedly, it's rather messy. Of course, by convention, the main page is index.html and most of your changes will come from there. Making meaningful contributions should only require basic HTML knowledge. Once you have made all of the changes you wish to propose and have comitted them to your fork, you must make a Pull Request to upstream. The pull request can then be viewed and discussed by other community members and can then be approved and merged by a Masari Core Team member.
+
+## 7. Support Masari
 
 People are what make good projects great and Masari is no different. Please consider donating and / or working on the Masari Project.
 
@@ -59,7 +66,7 @@ c7a7c141581ac4436ba8bfb81dd67234720c565c696ef154a25c7e7314ce4b08
 
 Bitcoin: 1J1he4qtTuNpCxyEBozkeKfDpoeYxfE3rj
 
-## 7. What to do if You Are Not Familiar With Github
+## 8. What to do if You Are Not Familiar With Github
 
 You can reach out to [BazookaJeff]( https://twitter.com/bazookajeff) on Twitter to help you get started. Github can look pretty daunting but it’s actually fairly straightforward getting started. If you have experience with image manipulators, word processors, and / or editing, you can get started in a few simple steps. You can read this guide [here]( https://help.github.com/en/articles/creating-a-pull-request) about how to create a pull request. For a broad overview of using Github, go [here](https://guides.github.com/activities/hello-world/). 
 
