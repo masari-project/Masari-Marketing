@@ -72,7 +72,7 @@ This option requires a moderate understanding of Linux, Masari, network security
 
 *1x Hot Computer*
 
-*OPTIONAL: 1x Air-gapped Computer (instead of the hot cmoputer)*
+*OPTIONAL: 1x Air-gapped Computer (instead of the hot computer)*
 
 *2x USB Stick (3+ is helpful)*
 
