@@ -72,7 +72,7 @@ This option requires a moderate understanding of Linux, Masari, network security
 
 *1x Hot Computer*
 
-*RECOMMENDED: 1x air-gapped computer*
+*OPTIONAL: 1x Air-gapped Computer (instead of the hot computer)*
 
 *2x USB Stick (3+ is helpful)*
 
@@ -84,25 +84,30 @@ This option requires a moderate understanding of Linux, Masari, network security
 
 **Generating the Wallet:**
 
-1. On your hot computer, navigate to https://github.com/masari-project/masari-wallet-generator and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP". 
-2. Check that the sha256sum is `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
-3. Format your USB stick and copy the checked wallet generator onto it.
-4. Remove the USB stick, unplug / disable internet access, and shut down the computer.
-5. After booting into a Linux distro (Linux Mint is recommended for people who are used to Windows OS) on your hot computer (or better yet, on an air-gapped machine) plug in your USB stick and navigate to it. Paranoid users can double check that the sha256sum is still the same by opening a terminal, navigating to the location of the ZIP file and typing `sha256sum masari-wallet-generator-master.zip`
-6. Unzip the file and open `masari-wallet-generator.html`.
-7. Click "GENERATE WALLET", which will generate four important items:
+You can either download a user created pre-zipped file that has all the tools you need using [this guide](https://github.com/JeuTheIdit/Masari-usb-cold-wallet-gen), or follow the instructions below to download the required programs yourself.
+
+1. On your computer, navigate to https://github.com/masari-project/masari-wallet-generator and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP". 
+2. Check that the sha256sum of the downloaded zip file is `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
+3. Download your prefered program to format and create bootable USB flash drives.  I personally use [Rufus](https://rufus.ie/) because it is open source. Checking the sha256sum is recommended.
+4. Donwload your prefered Linux iso (Linux Mint is recommended for people who are used to Windows). Checking the sha256sum is recommended.
+5. Format your USB stick (if the USB is not new) and create a bootable USB drive with the linux iso.
+6. Copy the checked wallet generator onto the newly created USB drive.
+7. Unplug / disable internet access, and shut down the computer.
+8. After booting into the Linux distro on your hot computer (or better yet, on an air-gapped machine), navigate to the wallet generator. Paranoid users can double check that the sha256sum is still the same by opening a terminal, navigating to the location of the zip file and typing `sha256sum masari-wallet-generator-master.zip`
+9. Unzip the file and open `masari-wallet-generator.html`.
+10. Click "GENERATE WALLET", which will generate four important items:
  * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
  * Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
  * Private spend key: Used to send funds from the wallet.
  * Private view key: Used to view transactions entering the wallet.  Commonly this is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions live on the blockchain as they are sent to your cold wallet.
-8. On a piece of paper, **NEATLY** write down your *mnemonic seed*, *private spend key*, *private view key*, and *public address*. Alternatively (and more conveniently), print these out using a printer that has no wifi capability, has never been connected to the internet, and never will be. The older the printer, the better. You can also copy them to freshly bought USB sticks that have never been connected to the internet, and never will be. Paranoid users can keep 1 copy of printed wallet info and 1 copy of digital wallet info in a safe in their house, and 1 copy of printed wallet info and 1 copy of digital wallet info in a sealed plastic bag filled with rice, inside a PVC pipe that is sealed on both ends with 4" of silicone, buried under the birdbath.
+11. On a piece of paper, **NEATLY** write down your *mnemonic seed*, *private spend key*, *private view key*, and *public address*. Alternatively (and more conveniently), print these out using a printer that has no wifi capability, has never been connected to the internet, and never will be. The older the printer, the better. You can also copy them to freshly bought USB sticks that have never been connected to the internet, and never will be. Paranoid users can keep 1 copy of printed wallet info and 1 copy of digital wallet info in a safe in their house, and 1 copy of printed wallet info and 1 copy of digital wallet info in a sealed plastic bag filled with rice, inside a PVC pipe that is sealed on both ends with 4" of silicone, buried under the birdbath.
  * Either check 3 times that everything is correct or physically write everything 3 times.
  * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
-9. OPTIONAL: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later.
+12. OPTIONAL: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later.
 
 (1) This USB can be used with relative abandon.  The only consequence being, if someone gets a hold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
 
-8. Delete any copy of the wallet generator left over on the device you used.
-9. Restart your computer back into your normal OS.
-10. Reconnect to the internet.
-11. Congrats! You sucessfully generated a paper wallet.
+13. Delete any copy of the wallet generator left over on the device you used.
+14. Restart your computer back into your normal OS.
+15. Reconnect to the internet.
+16. Congrats! You sucessfully generated a paper wallet.
