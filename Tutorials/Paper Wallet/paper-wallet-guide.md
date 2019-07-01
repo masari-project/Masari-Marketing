@@ -25,6 +25,8 @@ It should go without saying, but it is up to **you** to determine threat model a
 
 You can get [printable paper wallets here](https://github.com/masari-project/Masari-Marketing/tree/master/Paper%20Wallets) to write down important information in style.
 
+![paper wallet](https://github.com/masari-project/Masari-Marketing/blob/master/Paper%20Wallets/Official%20Trifold/Masari-Wallet-Trifold-Back.png)
+
 ## Using A Hot Computer (least secure):
 
 **Skill Required:**
