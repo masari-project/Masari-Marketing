@@ -60,7 +60,7 @@ This option requires a moderate understanding of Masari and little computer know
    ![mnemonic seed](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Mnemonic%20Seed.PNG)
  * Private spend key and view key: There for information only, since they can be recovered from the mnemonic seed. Commonly, the view key is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions as they are sent to your cold wallet.
    ![private keys](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Private%20Keys.PNG)
-6. On a piece of paper, **NEATLY** write down your *public adress* and *mnemonic seed*.
+6. On a piece of paper, **NEATLY** write down your *public address* and *mnemonic seed*.
  * Either check 3 times that everything is correct or physically write everything 3 times.
  * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
 7. *Optional*: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later.
@@ -112,7 +112,7 @@ You can either download a user created pre-zipped file that has all the tools yo
    ![mnemonic seed](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Mnemonic%20Seed.PNG)
  * Private spend key and view key: There for information only, since they can be recovered from the mnemonic seed. Commonly, the view key is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions as they are sent to your cold wallet.
    ![private keys](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Private%20Keys.PNG)
-11. On a piece of paper, **NEATLY** write down your *public adress* and *mnemonic seed*.
+11. On a piece of paper, **NEATLY** write down your *public address* and *mnemonic seed*.
  * Either check 3 times that everything is correct or physically write everything 3 times.
  * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
 12. *Optional*: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later.
