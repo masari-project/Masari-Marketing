@@ -27,35 +27,37 @@ You can get [printable paper wallets here](https://github.com/masari-project/Mas
 
 ![paper wallet](https://github.com/masari-project/Masari-Marketing/blob/master/Paper%20Wallets/Official%20Trifold/Masari-Wallet-Trifold-Back.png)
 
-## Using A Hot Computer (least secure):
+## Creating cold wallet using a hot computer (least secure):
 
-**Skill Required:**
+**Skill required:**
 
 This option requires a moderate understanding of Masari and little computer knowledge.
 
-**Hardware/Software Required:**
+**Hardware/Software required:**
 
-*1x Hot computer*
+* *1x Hot computer*
 
-*OPTIONAL: 1x USB drive*
+* *OPTIONAL: 1x USB drive*
 
-*1x Paper*
+* *1x Paper*
 
-*1x Pen*
+* *1x Pen*
 
-*1x Hash Utility.  I personally use either the built in [Windows 10 utility](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil#BKMK_hashfile) or Ubuntu utility (https://help.ubuntu.com/community/HowToSHA256SUM). An easy to use and well known GUI utility is [QuickHash](https://sourceforge.net/projects/quickhash/).
+* *1x Hash Utility*.  I personally use either the built in [Windows 10 utility](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil#BKMK_hashfile) or Ubuntu utility (https://help.ubuntu.com/community/HowToSHA256SUM). An easy to use and well known GUI utility is [QuickHash](https://sourceforge.net/projects/quickhash/).
 
-**Generating the Wallet:**
+**Generating the wallet:**
 
 1. Download the paper wallet generator zip from here: https://github.com/masari-project/masari-wallet-generator
 2. Disconnect from the internet.
-3. *Optional but recommended:* Check that the sha256 hash matches the following: 8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A
+3. *Optional but recommended:* Check that the sha256 hash matches the following: `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
 4. Unzip and open `masari-wallet-generator.html`.
-5. Click "GENERATE WALLET", which will generate four important items:
+5. Click "GENERATE WALLET".
+
+   This will generate four important items:
  * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
  * Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
  * Private spend key: Used to send funds from the wallet.
- * Private view key: Used to view transactions entering the wallet.  Commonly this is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions live on the blockchain as they are sent to your cold wallet.
+ * Private view key: Used to view transactions entering the wallet.  Commonly this is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions as they are sent to your cold wallet.
 6. On a piece of paper, **NEATLY** write down your *mnemonic seed*, *private spend key*, *private view key*, and *public address*.
  * Either check 3 times that everything is correct or physically write everything 3 times.
  * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
@@ -68,27 +70,25 @@ This option requires a moderate understanding of Masari and little computer know
 10. Reconnect to the internet.
 11. Congrats! You sucessfully generated a paper wallet.
 
-## Booting With a Linux USB (more secure)
+## Creating a cold wallet using a Linux USB (more secure)
 
-**Skill Required:**
+**Skill required:**
 
 This option requires a moderate understanding of Linux, Masari, network security, and general computer knowledge.
 
-**Hardware/Software Required:**
+**Hardware/Software required:**
 
-*1x Hot Computer*
+* *1x Hot Computer*
 
-*OPTIONAL: 1x Air-gapped Computer (instead of the hot computer)*
+* *2x USB Stick (3+ is helpful)*
 
-*2x USB Stick (3+ is helpful)*
+* *1x Paper*
 
-*1x Paper*
+* *1x Pen*
 
-*1x Pen*
+* *1x Hash Utility*.  I personally use either the built in [Windows 10 utility](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil#BKMK_hashfile) or Ubuntu utility (https://help.ubuntu.com/community/HowToSHA256SUM). An easy to use and well known GUI utility is [QuickHash](https://sourceforge.net/projects/quickhash/).
 
-*1x Hash Utility.  I personally use either the built in [Windows 10 utility](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil#BKMK_hashfile) or Ubuntu utility (https://help.ubuntu.com/community/HowToSHA256SUM). An easy to use and well known GUI utility is [QuickHash](https://sourceforge.net/projects/quickhash/).
-
-**Generating the Wallet:**
+**Generating the wallet:**
 
 You can either download a user created pre-zipped file that has all the tools you need using [this guide](https://github.com/JeuTheIdit/Masari-usb-cold-wallet-gen), or follow the instructions below to download the required programs yourself.
 
@@ -101,12 +101,14 @@ You can either download a user created pre-zipped file that has all the tools yo
 7. Unplug / disable internet access, and shut down the computer.
 8. After booting into the Linux distro on your hot computer (or better yet, on an air-gapped machine), navigate to the wallet generator. Paranoid users can double check that the sha256sum is still the same by opening a terminal, navigating to the location of the zip file and typing `sha256sum masari-wallet-generator-master.zip`
 9. Unzip the file and open `masari-wallet-generator.html`.
-10. Click "GENERATE WALLET", which will generate four important items:
+10. Click "GENERATE WALLET".
+
+   This will generate four important items:
  * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
  * Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
  * Private spend key: Used to send funds from the wallet.
  * Private view key: Used to view transactions entering the wallet.  Commonly this is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions live on the blockchain as they are sent to your cold wallet.
-11. On a piece of paper, **NEATLY** write down your *mnemonic seed*, *private spend key*, *private view key*, and *public address*. Alternatively (and more conveniently), print these out using a printer that has no wifi capability, has never been connected to the internet, and never will be. The older the printer, the better. You can also copy them to freshly bought USB sticks that have never been connected to the internet, and never will be. Paranoid users can keep 1 copy of printed wallet info and 1 copy of digital wallet info in a safe in their house, and 1 copy of printed wallet info and 1 copy of digital wallet info in a sealed plastic bag filled with rice, inside a PVC pipe that is sealed on both ends with 4" of silicone, buried under the birdbath.
+11. On a piece of paper, **NEATLY** write down your *mnemonic seed*, *private spend key*, *private view key*, and *public address*. 
  * Either check 3 times that everything is correct or physically write everything 3 times.
  * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
 12. OPTIONAL: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later.
