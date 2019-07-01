@@ -1,25 +1,29 @@
-*DATE: 26Apr2019*
+This is a guide on how to securely store Masari in cold storage.
 
-*Created by JeuTheIdit*
+## What is cold storage?
 
-This is a guide on how to securely store Masari in a paper wallet using either a hot computer or bootable usb drive.
+Cold storage refers to a wallet which resides offline, disconnected from the Internet.
 
-Creating a paper wallet can be completed in a variety of ways, each providing different security levels. In this guide we will focus on two:
-1. Simply disconnecting from the internet and running the generator on your every-day hot computer (least secure).
+## Why should I use cold storage?
+
+If you hold a large amount of Masari with no plans to spend anytime soon, cold storage can help you secure that value against attackers.
+
+## What methods are there to create cold wallets?
+
+Creating a cold wallet can be completed in a variety of ways, each providing different security levels. In this guide we will focus on two:
+1. Simply disconnecting from the Internet and running the masari-wallet-generator on your every-day hot computer (least secure).
 2. Creating a bootable USB stick with any Linux distro, disconnecting from the internet, booting from the USB stick, running the generator, and destroying the USB stick afterwards (more secure).
 
-For most users, option 1 will suffice and your MSR will be fairly secure. However, if you generate a wallet while your computer is infected, you risk losing your funds. Option 2 is a more secure option for a few reasons:
+For most users, option 1 will suffice and your Masari will be fairly secure. However, if you generate a wallet while your computer is infected, you risk losing your funds. Option 2 is a more secure option for a few reasons:
 
 * You are generating on an OS that you know is clean (non-infected).
-* Assuming you wipe (or even better, destroy) the USB afterwards, that OS and paper wallet data will never be able to hit the internet.
+* Assuming you wipe (or even better, destroy) the USB afterwards, that OS and cold wallet data will never be able to hit the Internet.
 
-This, however, doesnt prevent any hardware based attacks such as [Spectre and Meltdown](https://ds9a.nl/articles/posts/spectre-meltdown/), since you are using the same computer hardware on the hot OS. This is where  an air-gapped computer comes in, where you can generate a paper wallet or complete [offline transaction signing](https://www.reddit.com/r/Monero/comments/68qt9f/reminder_how_to_use_offline_signing/) on a machine that was never, nor ever will be, connected to the internet. Any point of entry for attack is prevented, barring a physical attack. This method will not be covered.
+This, however, doesnt prevent any hardware based attacks such as [Spectre and Meltdown](https://ds9a.nl/articles/posts/spectre-meltdown/), since you are using the same computer hardware on the hot OS. Additional precautions can be made such as buying a new computer which has never touched the Internet or using an old computer without Internet connection. You could then save the masari-wallet-generator utility on an Internet-connected computer to an USB drive and use it on the aforementioned computer. This method will not be covered.
 
-It should go without saying, but it is up to **you** to determine threat level and act accordingly.
+It should go without saying, but it is up to **you** to determine threat model and use whatever option fits your needs.
 
-You can get [printable paper wallets here](https://github.com/masari-project/Masari-Marketing/tree/master/Paper%20Wallets)
-. 
-
+You can get [printable paper wallets here](https://github.com/masari-project/Masari-Marketing/tree/master/Paper%20Wallets) to write down important information in style.
 
 ## Using A Hot Computer (least secure):
 
