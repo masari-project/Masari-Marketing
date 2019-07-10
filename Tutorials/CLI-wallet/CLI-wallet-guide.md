@@ -9,7 +9,7 @@ Open a terminal and navigate to the folder where you extracted the download of t
 
 and start the daemon with `./masarid`.
 
-![synced](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/synced.png)
+![synced](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/synced.png)
 
 After the daemon is synced, open a new terminal tab with Ctrl + Shift + t. Start the CLI wallet with:
 
@@ -19,7 +19,7 @@ Create a new wallet by entering any name for the wallet. Then input a password a
 and keep your 25 word seed safe- with just those 25 words you can access and restore the entire wallet, including spending all
 the funds on it. Now you're ready to begin.
 
-![A new wallet](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/create_new_wallet.png)
+![A new wallet](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/create_new_wallet.png)
 
 The general structure of a wallet is:
 
@@ -36,7 +36,7 @@ Let's add another account for "everyday cash":
 
 `account new everyday cash`
 
-![New accounts](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/new_accts.png)
+![New accounts](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/new_accts.png)
 
 As you can see, we now have 3 accounts indexed 0,1, and 2. To switch between accounts, use: 
 
@@ -50,7 +50,7 @@ inevitably rolls around.
 
 `address new old TV`
 
-![Address for TV money](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/new_add_oldTV.png)
+![Address for TV money](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/new_add_oldTV.png)
 
 Now we can give this new address 9pDUb...43yY to the customer. The price for the old TV is 2 MSR. When we want to verify that
 the customer has paid, we can switch to the relevant account and use:
@@ -69,7 +69,7 @@ where we see (in order) block height, transaction in or out, time, amount, txid,
 corresponds to our generated address "old TV" at index 1, so we know the TV is paid for. When the transaction comes in (or is
 checked with `show_transfers in`) it specifies exactly where in the wallet the funds were sent to, in this case (in green) it says "idx 1/1" which means that the funds arrived to the account at index 1 (garage sale income), address at index 1 (old TV). For the sake of privacy, we won't reuse this address.
 
-![Got the TV money!](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/payment_receive_index1.png)
+![Got the TV money!](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/payment_receive_index1.png)
 
 ### Importing a wallet
 
@@ -162,7 +162,7 @@ or
 
  `Error: <address> received nothing in txid <txid>`
  
- ![Prove sending](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/prove_sending.png)
+ ![Prove sending](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/prove_sending.png)
 
 ### Using the block explorer
 
@@ -253,7 +253,7 @@ of the other 2 friends. Our output line was [MultisigxV1RyED...LehexiQbgby] and 
 
 Remember to put a space between the sets of multisig info. There should be no output, but you will notice that the wallet address has changed.
 
-![finalize_multisig](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/finalize_multisig1.png)
+![finalize_multisig](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/finalize_multisig1.png)
 
 Your new, multisig wallet address can be found by doing
 
@@ -261,7 +261,7 @@ Your new, multisig wallet address can be found by doing
 
 and you will notice that now all 3 parties have the same wallet address:
 
-![3xaddress](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/3xaddress.png)
+![3xaddress](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/3xaddress.png)
 
 ### Spending from multisig
 
@@ -271,11 +271,11 @@ After our multisig wallet has some funds on it, let's spend them. First we need 
 
 The exported file will be in the same folder as your wallets, in this case /home/fire/masari-linux-x64-v0.3.0.0. We need to send this to our 2 friends so they can sign a transaction, and they need to send their exported multisig info to us.
 
-![multis1](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/multis1.png)
+![multis1](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/multis1.png)
 
-![multis2](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/multis2.png)
+![multis2](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/multis2.png)
 
-![multis3](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/multis3.jpg)
+![multis3](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/multis3.jpg)
 
 Now we'll **import** our friends' multisig info files. By default, the wallet will look in the shell working folder for the files (that was /home/fire/masari-linux-x64-v0.3.0.0 in this case, but can vary if you have an advanced setup), so make sure the files are there. The file "multis 2" should be in friend #2's wallet folder since he exported it there, same for "multis 3". After we have all 3 multisig info files, we use the import_multisig_info command:
 
@@ -290,7 +290,7 @@ Any of the 3 friends can start the transaction, and will need to get the signatu
 
 `transfer 5qF9rxMbxBH4mEXBs1SE1taMDrkEoVzGX4ycwBhNCiVqPMc5yEKoEqN4TLavJcdLMJGyQgawFTKbu5QTHFLVQWsWTbFTkX6 1`
 
-![transfer](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/transfer.png)
+![transfer](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/transfer.png)
 
 This will generate a file called multisig_masari_tx. For peace of mind, let's do one transaction at a time. Let's choose friend #2 to complete the signature for this transaction. If we choose a friend that we did *not* import the multisig file info from, we will get the error
 
@@ -301,14 +301,14 @@ they can use sign_multisig with the file multisig_masari_tx:
 
 `sign_multisig multisig_masari_tx`
 
-![sign](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/sign_multisig_right1.png)
+![sign](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/sign_multisig_right1.png)
 
 After verifying the address, amount, fees, ring size, and change address, our friend will press `y` and the transaction will be successfully signed to the file multisig_masari_tx. Now the transaction is ready to be relayed to the network. Our friend can
 send the file back to us or broadcast it himself by doing:
 
 `submit_multisig multisig_masari_tx`
 
-![submit](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/tx_success.png)
+![submit](https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/tx_success.png)
 
 Congratulations, transaction successfully submitted!
 
