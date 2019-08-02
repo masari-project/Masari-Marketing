@@ -52,14 +52,14 @@ This option requires a moderate understanding of Masari and little computer know
 3. *Optional but recommended:* Check that the sha256 hash of the downloaded zip file matches the following: `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
 4. Unzip and open `masari-wallet-generator.html`.
 5. Click "GENERATE WALLET".
-   ![generate](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Generate.PNG)
+   ![generate](https://github.com/masari-project/Masari-Marketing/blob/master/Tutorials/Paper-Wallet/Generate.PNG)
    This will generate four important items:
  * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
-   ![public address](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Public%20Address.PNG)
+   ![public address](https://github.com/masari-project/Masari-Marketing/blob/master/Tutorials/Paper-Wallet/Public%20Address.PNG)
  * Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
-   ![mnemonic seed](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Mnemonic%20Seed.PNG)
+   ![mnemonic seed](https://github.com/masari-project/Masari-Marketing/blob/master/Tutorials/Paper-Wallet/Mnemonic%20Seed.PNG)
  * Private spend key and view key: There for information only, since they can be recovered from the mnemonic seed. Commonly, the view key is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions as they are sent to your cold wallet.
-   ![private keys](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Private%20Keys.PNG)
+   ![private keys](https://github.com/masari-project/Masari-Marketing/blob/master/Tutorials/Paper-Wallet/Private%20Keys.PNG)
 6. On a piece of paper, **NEATLY** write down your *public address* and *mnemonic seed*.
  * Either check 3 times that everything is correct or physically write everything 3 times.
  * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
@@ -104,14 +104,14 @@ You can either download a user created pre-zipped file that has all the tools yo
 8. Boot into the Linux distro and navigate to the wallet generator zip file location. Paranoid users can double check that the sha256 hash is still the same by opening a terminal, navigating to the location of the zip file and typing `sha256sum masari-wallet-generator-master.zip`
 9. Unzip the file and open `masari-wallet-generator.html`.
 10. Click "GENERATE WALLET".
-   ![generate](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Generate.PNG)
+   ![generate](https://github.com/masari-project/Masari-Marketing/blob/master/Tutorials/Paper-Wallet/Generate.PNG)
    This will generate four important items:
  * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
-   ![public address](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Public%20Address.PNG)
+   ![public address](https://github.com/masari-project/Masari-Marketing/blob/master/Tutorials/Paper-Wallet/Public%20Address.PNG)
  * Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
-   ![mnemonic seed](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Mnemonic%20Seed.PNG)
+   ![mnemonic seed](https://github.com/masari-project/Masari-Marketing/blob/master/Tutorials/Paper-Wallet/Mnemonic%20Seed.PNG)
  * Private spend key and view key: There for information only, since they can be recovered from the mnemonic seed. Commonly, the view key is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions as they are sent to your cold wallet.
-   ![private keys](https://github.com/JeuTheIdit/Masari-Marketing/blob/patch-3/Tutorials/Paper%20Wallet/Private%20Keys.PNG)
+   ![private keys](https://github.com/masari-project/Masari-Marketing/blob/master/Tutorials/Paper-Wallet/Private%20Keys.PNG)
 11. On a piece of paper, **NEATLY** write down your *public address* and *mnemonic seed*.
  * Either check 3 times that everything is correct or physically write everything 3 times.
  * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
