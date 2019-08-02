@@ -1,4 +1,4 @@
-This is a guide on how to securely store Masari in cold storage (also known as a paper wallet).
+This educational activity is designed to show the new user how to securely store Masari in cold storage (also known as a paper wallet).
 
 ## What is cold storage?
 
