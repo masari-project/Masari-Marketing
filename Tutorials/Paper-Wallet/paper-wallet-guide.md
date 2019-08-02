@@ -2,15 +2,15 @@
 
 This educational activity is designed to show the new user how to securely store Masari in cold storage (also known as a paper wallet).
 
-## What is cold storage?
+### What is cold storage?
 
 Cold storage refers to a wallet which resides offline, disconnected from the Internet.
 
-## Why should I use cold storage?
+### Why should I use cold storage?
 
 If you hold a large amount of Masari with no plans to spend anytime soon, cold storage can help you secure that value against attackers.
 
-## What methods are there to create cold wallets?
+### What methods are there to create cold wallets?
 
 Creating a cold wallet can be completed in a variety of ways, each providing different security levels. In this guide we will focus on two:
 1. Simply disconnecting from the Internet and running the masari-wallet-generator on your every-day hot computer (least secure).
@@ -29,7 +29,7 @@ You can get [printable paper wallets here](https://github.com/masari-project/Mas
 
 ![paper wallet](https://github.com/masari-project/Masari-Marketing/blob/master/Paper%20Wallets/Official%20Trifold/Masari-Wallet-Trifold-Back.png)
 
-## Creating cold wallet using a hot computer (least secure):
+### Creating cold wallet using a hot computer (least secure):
 
 **Skill required:**
 
@@ -74,7 +74,7 @@ This option requires a moderate understanding of Masari and little computer know
 10. Reconnect to the internet.
 11. Congrats! You sucessfully generated a paper wallet.
 
-## Creating a cold wallet using a Linux USB (more secure)
+### Creating a cold wallet using a Linux USB (more secure)
 
 **Skill required:**
 
