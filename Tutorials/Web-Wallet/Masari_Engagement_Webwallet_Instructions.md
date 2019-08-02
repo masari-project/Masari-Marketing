@@ -8,17 +8,17 @@ https://wallet.getmasari.org/
 
 **Begin Wallet Creation**
 
-Once you have navigated to the website, click 'Create a wallet' in the center, or 'Create' on the top-left corner.
+Once you have navigated to the website, click 'Create a wallet' in the center, or 'Create' on the top-right corner.
 
 ![create wallet](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/create%20wallet.PNG)
 
 **Choosing a Password**
 
-After clicking 'Create a wallet', your wallet will be automatically generated and prompt you to create a password.
+After clicking 'Create a wallet' or 'Create', your wallet will be automatically generated and prompt you to create a password.
 
 ![password](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/password.PNG)
 
-It is advisable to pick a password that is complex, as you could lose your funds if a malevolent person logs into your wallet.
+It is advisable to pick a password that is complex, as you could lose your funds if a malevolent person logs into your wallet. When ready, click 'Use this password'.
 
 **Mnemonic Phrase**
 
@@ -26,7 +26,7 @@ After choosing a password, you will be prompted to either download a file of or 
 
 ![mnemonic phrase](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/mnemonic%20seed.PNG)
 
-Make sure to keep a copy (or multiple copies) at all times in a secure place, as your wallet cannot be recovered if you lose it. Also never share this information with anyone except trusted parties. If you understand these risks, click 'I Understand. Continue.'.
+Make sure to keep a copy (or multiple copies) at all times in a secure place, as your wallet cannot be recovered if you lose it. Also, never share this information with anyone except trusted parties. If you understand these risks, click 'I Understand. Continue.'.
 
 ![understand](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/understand.PNG)
 
@@ -42,19 +42,19 @@ If the cache is deleted in the future, you will have to import the wallet.
 
 **Begin Wallet Import**
 
-If you have already created a wallet, you have the option to import it.  To start, click on 'Import a wallet' on the top-right corner.
+If you have already created a wallet in the past, you have the option to import it. To start, click on 'Import a wallet' on the top-right corner.
 
 ![import wallet](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/import%20wallet.PNG)
 
 **Import Method**
 
-After clicking 'Import a wallet', you will be prompted to chose the method of import. Use whicchever one you prefer, the most common being 'From a file' or 'From a mnemonic phrase'.
+After clicking 'Import a wallet', you will be prompted to chose the method of import. Use whichever method you prefer, the most common being 'From a file' or 'From a mnemonic phrase'.
 
 ![import method](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/import%20method.PNG)
 
 **Choosing a Password and Restore Height**
 
-After choosing the import method, you will be prompted to chose a password and restore height. It is advisable to pick a password that is complex, as you could lose your funds if a malevolent person logs into your wallet. If you dont know the height at which your wallet was first created, choose 0.
+After choosing the import method, you will be prompted to select a password and restore height. It is advisable to pick a password that is complex, as you could lose your funds if a malevolent person logs into your wallet. If you dont know the height at which your wallet was first created, choose 0.
 
 ![import password](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/import%20password.PNG)
 
@@ -102,11 +102,11 @@ At the export page, you can view your public address, download a pdf backup, or 
 
 ![export page](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/export%20page.PNG)
 
-Exporting to a file will also contains a backup of all transactions, which will speed up future syncronizations if you ever need to import the wallet.
+Exporting to a file will also contain a backup of all wallet transactions, which will speed up future syncronizations if you ever need to import the wallet.
 
 **Settings**
 
-The settings page allows you to choose or change the wallet language, change the sync speed (faster speed will consume more hardware resources), change the wallet password, or delete the local copy of the wallet.
+The settings page allows you to change the wallet language, change the sync speed (faster speed will consume more hardware resources), change the wallet password, or delete the local copy of the wallet.
 
 ![settings page](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/settings%20page.PNG)
 
@@ -120,7 +120,7 @@ The donate page lists the web wallets developer (gnock) donation addresses, as w
 
 **Disconnect**
 
-Clicking this will disconnect the daemon and close the wallet.
+Clicking this will disconnect and close the wallet, then return you to the landing page.
 
 **Network Stats**
 
