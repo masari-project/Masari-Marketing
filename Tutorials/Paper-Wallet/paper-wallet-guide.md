@@ -35,7 +35,7 @@ You can get [printable paper wallets here](https://github.com/masari-project/Mas
 
 This option requires a moderate understanding of Masari and little computer knowledge.
 
-**Hardware/Software Required**
+**Hardware and Software Required**
 
 * *1x Hot computer*
 
@@ -47,32 +47,46 @@ This option requires a moderate understanding of Masari and little computer know
 
 * *1x Hash Utility*.  Most users utilize the built in [Windows 10 utility](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil#BKMK_hashfile) or [Ubuntu utility](https://help.ubuntu.com/community/HowToSHA256SUM). An easy to use and well known GUI utility is [QuickHash](https://sourceforge.net/projects/quickhash/).
 
-**Generating The Wallet:**
+**Downloading and Preparation**
 
-1. On your computer, navigate to [https://github.com/masari-project/masari-wallet-generator](https://github.com/masari-project/masari-wallet-generator) and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP".
-2. Unplug or disable internet access.
-3. *Optional but recommended:* Check that the sha256 hash of the downloaded zip file matches the following: `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
-4. Unzip and open `masari-wallet-generator.html`.
-5. Click "GENERATE WALLET".
-   ![generate](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/generate.png)
-   This will generate four important items:
+On your computer, navigate to [https://github.com/masari-project/masari-wallet-generator](https://github.com/masari-project/masari-wallet-generator) and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP".
+
+Unplug or disable internet access.
+
+It is recommended to check that the sha256 hash of the downloaded zip file matches the following: `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
+
+**Generating a New Wallet**
+
+Unzip the file and open `masari-wallet-generator.html`.
+
+Click "GENERATE WALLET".
+![generate](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/generate.png)
+
+**Mnemonic Seed and Address**
+
+After generating the wallet, four important items will be shown:
  * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
    ![public address](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/public%20address.png)
  * Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
    ![mnemonic seed](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/mnemonic%20seed.png)
  * Private spend key and view key: There for information only, since they can be recovered from the mnemonic seed. Commonly, the view key is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions as they are sent to your cold wallet.
    ![private keys](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/private%20keys.png)
-6. On a piece of paper, **NEATLY** write down your *public address* and *mnemonic seed*.
+
+On a piece of paper, **NEATLY** write down your *public address* and *mnemonic seed*.
  * Either check 3 times that everything is correct, or physically write everything 3 times.
  * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
-7. *Optional*: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later.
 
-(1) This USB can be used with relative abandon.  The only consequence being, if someone gets a hold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
+*Optional*: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later, and be used with relative abandon.  The only consequence being, if someone gets a hold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
 
-8. Delete any copy of the wallet generator left over on the device you used.
-9. Restart your computer.
-10. Reconnect to the internet.
-11. Congrats! You sucessfully generated a paper wallet.
+**Clean Up**
+
+Delete any copy of the wallet generator left over on the device you used.
+
+Restart your computer.
+
+Reconnect to the internet.
+
+Congrats! You sucessfully generated a paper wallet.
 
 ### Creating A Cold Wallet Using a Linux USB (more secure)
 
@@ -92,37 +106,57 @@ This option requires a moderate understanding of Linux, Masari, network security
 
 * *1x Hash Utility*.  I personally use either the built in [Windows 10 utility](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil#BKMK_hashfile) or Ubuntu utility (https://help.ubuntu.com/community/HowToSHA256SUM). An easy to use and well known GUI utility is [QuickHash](https://sourceforge.net/projects/quickhash/).
 
-**Generating The Wallet:**
+**Creating the Bootable USB**
 
 You can either download a community created pre-zipped file that has all the tools you need using [this guide](https://github.com/JeuTheIdit/Masari-usb-cold-wallet-gen), or follow the instructions below to download the required programs yourself.
 
-1. On your computer, navigate to [https://github.com/masari-project/masari-wallet-generator](https://github.com/masari-project/masari-wallet-generator) and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP". 
-2. *Optional but recommended:* Check that the sha256 hash of the downloaded zip file matches the following: `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
-3. Download your prefered program to format and create bootable USB flash drives.  A popular and open source program is [Rufus](https://rufus.ie/). Checking the sha256 hash is recommended.
-4. Donwload your prefered Linux iso (Linux Mint is recommended for people who are used to Windows). Checking the sha256 hash is recommended.
-5. Format your USB stick (if the USB is not new) and create a bootable USB drive with the Linux iso.
-6. Copy the checked wallet generator onto the newly created USB drive.
-7. Unplug or disable internet access, and shut down the computer.
-8. Boot into the Linux distro and navigate to the wallet generator zip file location. Paranoid users can double check that the sha256 hash is still the same by opening a terminal, navigating to the location of the zip file and typing `sha256sum masari-wallet-generator-master.zip`
-9. Unzip the file and open `masari-wallet-generator.html`.
-10. Click "GENERATE WALLET".
-   ![generate](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/generate.png)
-   This will generate four important items:
+On your computer, navigate to [https://github.com/masari-project/masari-wallet-generator](https://github.com/masari-project/masari-wallet-generator) and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP". 
+
+It is recommended to check that the sha256 hash of the downloaded zip file matches the following: `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
+
+Download your prefered program to format and create bootable USB flash drives.  A popular and open source program is [Rufus](https://rufus.ie/). Checking the sha256 hash is recommended.
+
+Download your prefered Linux iso (Linux Mint is recommended for people who are used to Windows). Checking the sha256 hash is recommended.
+
+Format your USB stick (if the USB is not new) and create a bootable USB drive with the Linux iso.
+
+Copy the checked wallet generator onto the newly created USB drive.
+
+Unplug or disable internet access, and shut down the computer.
+
+**Generating the Wallet**
+
+Boot into the Linux distro and navigate to the wallet generator zip file location. Paranoid users can double check that the sha256 hash is still the same by opening a terminal, navigating to the location of the zip file and typing `sha256sum masari-wallet-generator-master.zip`
+
+Unzip the file and open `masari-wallet-generator.html`.
+
+Click "GENERATE WALLET".
+![generate](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/generate.png)
+
+**Mnemonic Seed and Address**
+
+After generating the wallet, four important items will be shown:
  * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
    ![public address](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/public%20address.png)
  * Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
    ![mnemonic seed](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/mnemonic%20seed.png)
  * Private spend key and view key: There for information only, since they can be recovered from the mnemonic seed. Commonly, the view key is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions as they are sent to your cold wallet.
    ![private keys](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/private%20keys.png)
-11. On a piece of paper, **NEATLY** write down your *public address* and *mnemonic seed*.
+
+On a piece of paper, **NEATLY** write down your *public address* and *mnemonic seed*.
  * Either check 3 times that everything is correct, or physically write everything 3 times.
  * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
-12. *Optional*: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later.
 
-(1) This USB can be used with relative abandon.  The only consequence being, if someone gets a hold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
+*Optional*: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later, and be used with relative abandon.  The only consequence being, if someone gets a hold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
 
-13. Delete any copy of the wallet generator left over on the usb.
-14. Unplug the bootable usb and restart your computer back into your normal OS.
-15. Reconnect to the internet.
-16. Format the bootable usb, or even better smash it to smithereens using a hammer.
-16. Congrats! You sucessfully generated a paper wallet.
+**Clean Up**
+
+Delete any copy of the wallet generator left over on the usb.
+
+Unplug the bootable usb and restart your computer back into your normal OS.
+
+Reconnect to the internet.
+
+Format the bootable usb, or even better smash it to smithereens using a hammer.
+
+Congrats! You sucessfully generated a paper wallet.
