@@ -49,7 +49,7 @@ This option requires a moderate understanding of Masari and little computer know
 
 **Generating The Wallet:**
 
-1. On your computer, navigate to https://github.com/masari-project/masari-wallet-generator and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP".
+1. On your computer, navigate to [https://github.com/masari-project/masari-wallet-generator](https://github.com/masari-project/masari-wallet-generator) and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP".
 2. Unplug or disable internet access.
 3. *Optional but recommended:* Check that the sha256 hash of the downloaded zip file matches the following: `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
 4. Unzip and open `masari-wallet-generator.html`.
@@ -96,7 +96,7 @@ This option requires a moderate understanding of Linux, Masari, network security
 
 You can either download a community created pre-zipped file that has all the tools you need using [this guide](https://github.com/JeuTheIdit/Masari-usb-cold-wallet-gen), or follow the instructions below to download the required programs yourself.
 
-1. On your computer, navigate to https://github.com/masari-project/masari-wallet-generator and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP". 
+1. On your computer, navigate to [https://github.com/masari-project/masari-wallet-generator](https://github.com/masari-project/masari-wallet-generator) and download the zip file by clicking the green box labeled "Clone or download" and then "Download ZIP". 
 2. *Optional but recommended:* Check that the sha256 hash of the downloaded zip file matches the following: `8897902B264D143EBC4705B9D787676C2425A68255397C359B6E2B8CCF78966A`.
 3. Download your prefered program to format and create bootable USB flash drives.  A popular and open source program is [Rufus](https://rufus.ie/). Checking the sha256 hash is recommended.
 4. Donwload your prefered Linux iso (Linux Mint is recommended for people who are used to Windows). Checking the sha256 hash is recommended.
