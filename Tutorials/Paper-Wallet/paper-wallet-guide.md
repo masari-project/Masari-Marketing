@@ -65,18 +65,16 @@ Click "GENERATE WALLET".
 **Mnemonic Seed and Address**
 
 After generating the wallet, four important items will be shown:
- * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
+ * Public address - Used to recieve funds.
    ![public address](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/public%20address.png)
  * Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
    ![mnemonic seed](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/mnemonic%20seed.png)
- * Private spend key and view key: There for information only, since they can be recovered from the mnemonic seed. Commonly, the view key is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions as they are sent to your cold wallet.
+ * Private spend key and view key: There for information only, since they can be recovered from the mnemonic seed. Commonly, the view key is used to setup a view-only wallet on a hot computer which can see incoming transactions as they are sent to your cold wallet.
    ![private keys](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/private%20keys.png)
 
-On a piece of paper, **NEATLY** write down your *public address* and *mnemonic seed*.
- * Either check 3 times that everything is correct, or physically write everything 3 times.
- * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
+Somewhere by your choosing, write down your *public address* and *mnemonic seed*. Make sure to keep a copy (or multiple copies) at all times in a secure place, as your wallet cannot be recovered if you lose your mnemonic seed. Also, never share this information with anyone except trusted parties. 
 
-*Optional*: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later, and be used with relative abandon.  The only consequence being, if someone gets a hold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
+Optionally, you can copy/paste (do not type) your *public address* and *private view key* to a text file and save on a separate USB stick.  This can be used to more easily create a view only wallet later with relative abandon.  The only consequence being, if someone gets a hold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
 
 **Clean Up**
 
@@ -86,7 +84,7 @@ Restart your computer.
 
 Reconnect to the internet.
 
-Congrats! You sucessfully generated a paper wallet.
+Congradulations! You have sucessfully generated a paper wallet.
 
 ### Creating A Cold Wallet Using a Linux USB (more secure)
 
@@ -98,13 +96,13 @@ This option requires a moderate understanding of Linux, Masari, network security
 
 * *1x Hot Computer*
 
-* *2x USB Stick (3+ is helpful)*
+* *2x USB Stick*
 
 * *1x Paper*
 
 * *1x Pen*
 
-* *1x Hash Utility*.  I personally use either the built in [Windows 10 utility](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil#BKMK_hashfile) or Ubuntu utility (https://help.ubuntu.com/community/HowToSHA256SUM). An easy to use and well known GUI utility is [QuickHash](https://sourceforge.net/projects/quickhash/).
+* *1x Hash Utility*.  Most users utilize the built in [Windows 10 utility](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/certutil#BKMK_hashfile) or [Ubuntu utility](https://help.ubuntu.com/community/HowToSHA256SUM). An easy to use and well known GUI utility is [QuickHash](https://sourceforge.net/projects/quickhash/).
 
 **Creating the Bootable USB**
 
@@ -124,7 +122,7 @@ Copy the checked wallet generator onto the newly created USB drive.
 
 Unplug or disable internet access, and shut down the computer.
 
-**Generating the Wallet**
+**Generating a New Wallet**
 
 Boot into the Linux distro and navigate to the wallet generator zip file location. Paranoid users can double check that the sha256 hash is still the same by opening a terminal, navigating to the location of the zip file and typing `sha256sum masari-wallet-generator-master.zip`
 
@@ -136,18 +134,16 @@ Click "GENERATE WALLET".
 **Mnemonic Seed and Address**
 
 After generating the wallet, four important items will be shown:
- * Public address: Used to recieve funds to the wallet. You give this to anyone who will be sending funds to your wallet.
-   ![public address](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/public%20address.png)
- * Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
-   ![mnemonic seed](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/mnemonic%20seed.png)
- * Private spend key and view key: There for information only, since they can be recovered from the mnemonic seed. Commonly, the view key is used to setup a [view-only wallet]() on a hot computer which can see incoming transactions as they are sent to your cold wallet.
-   ![private keys](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/private%20keys.png)
+* Public address - Used to recieve funds.
+  ![public address](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/public%20address.png)
+* Mnemonic seed: A method of storing the entire wallet that is easily recognizable to humans. This is all you need to restore your wallet at a later date.
+  ![mnemonic seed](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/mnemonic%20seed.png)
+* Private spend key and view key: There for information only, since they can be recovered from the mnemonic seed. Commonly, the view key is used to setup a view-only wallet on a hot computer which can see incoming transactions as they are sent to your cold wallet.
+  ![private keys](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Paper-Wallet/Images/private%20keys.png)
 
-On a piece of paper, **NEATLY** write down your *public address* and *mnemonic seed*.
- * Either check 3 times that everything is correct, or physically write everything 3 times.
- * **DO NOT LOSE THIS PIECE OF PAPER**. It alone contains the information required to access your Masari, and recover your wallet.
+Somewhere by your choosing, write down your *public address* and *mnemonic seed*. Make sure to keep a copy (or multiple copies) at all times in a secure place, as your wallet cannot be recovered if you lose your mnemonic seed. Also, never share this information with anyone except trusted parties. 
 
-*Optional*: Copy/paste (do not type) your *public address* and *private view key* to a text file and save on a USB stick^1.  This can be used to more easily create a view only wallet later, and be used with relative abandon.  The only consequence being, if someone gets a hold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
+Optionally, you can copy/paste (do not type) your *public address* and *private view key* to a text file and save on a separate USB stick.  This can be used to more easily create a view only wallet later with relative abandon.  The only consequence being, if someone gets a hold of your address and private view key, they could view the funds in your wallet.  They would not be able to, however, spend any funds.
 
 **Clean Up**
 
@@ -159,4 +155,6 @@ Reconnect to the internet.
 
 Format the bootable usb, or even better smash it to smithereens using a hammer.
 
-Congrats! You sucessfully generated a paper wallet.
+Congradulations! You have sucessfully generated a paper wallet.
+
+This concludes the Masari wallet activity. Enjoy hodling your Masari in a paper wallet!
