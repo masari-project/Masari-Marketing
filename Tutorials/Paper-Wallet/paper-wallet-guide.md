@@ -163,4 +163,4 @@ Congradulations! You have sucessfully generated a paper wallet.
 
 ### Conclusion
 
-This concludes the Masari wallet activity. Enjoy hodling your Masari in a paper wallet!
+This concludes the Masari wallet activity. Enjoy hodling your Masari in a paper wallet! If you have any questions, hop on any Masari community and ask for help.
