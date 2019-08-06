@@ -14,7 +14,7 @@ Checking the sha256 hash (correct hash is listed) is recommended.
 
 **Open the Masari Wallet**
 
-Once you have downloaded the Masari GUI wallet, unzip the file and double click `masari-wallet-gui` to open. It will prompt you to select a language. To select a language, simply double click your country’s flag.
+Once you have downloaded the Masari GUI wallet, unzip the file and double click `masari-wallet-gui` to open. The GUI will prompt you to select a language. To select a language, simply double click your country’s flag.
 
 ![language](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/GUI-Wallet/images/language.jpg)
 
@@ -42,7 +42,7 @@ When you have chosen your password, the wallet will then ask you what kind of Da
 
 It may take a while for you to synchronize with the network with this selection and your computer may slow. This is normal and you have no need to worry. Faster computers will generally not slow down as much.
 
-Congradulations! You have created a Masari wallet using the GUI!
+Congratulations! You have created a Masari wallet using the GUI!
 
 ### Using the Masari GUI Wallet
 
@@ -68,9 +68,9 @@ For most transactions, keep the 'Transaction Priority' as the default.
 
 To receive funds, click on the 'Receive' tab on the left sidebar. When you do this, you will see an address that starts with a 5.
 
-!{recieve](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/GUI-Wallet/images/recieve.jpg)
+![recieve](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/GUI-Wallet/images/recieve.jpg)
 
-You can click the clipboard on the right of the address to automatically copy the address to your computer’s clipboard. Alternativley, the QR code on this screen is a visual representation of your address, copy it to signs and cards to receive funds in your physical store.
+You can click the clipboard on the right of the address to automatically copy the address to your computer’s clipboard. Alternatively, the QR code on this screen is a visual representation of your address, copy it to signs and cards to receive funds in your physical store.
 
 **Looking at Your History**
 
@@ -92,4 +92,4 @@ You may also export a view only wallet at the bottom of the page.
 
 ### Conclusion
 
-This concludes the Masari wallet activity. Enjoy having Masari readily available on your desktop. If you ever have any questions, look for help at the communities below. Somebody will always be available to help you. 
+This concludes the Masari wallet activity. Enjoy having Masari readily available on your desktop! If you have any questions, hop on any Masari community and ask for help.
