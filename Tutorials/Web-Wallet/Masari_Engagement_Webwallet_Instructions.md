@@ -2,7 +2,7 @@
 
 This educational activity is designed to show the new user how to use the Web Wallet, accessible at the following url:
 
-https://wallet.getmasari.org/
+[https://wallet.getmasari.org/](https://wallet.getmasari.org/)
 
 ### Setting Up A New Wallet
 
