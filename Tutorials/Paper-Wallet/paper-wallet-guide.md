@@ -86,7 +86,7 @@ Restart your computer.
 
 Reconnect to the internet.
 
-Congradulations! You have sucessfully generated a paper wallet.
+Congratulations! You have sucessfully generated a paper wallet.
 
 ### Creating A Cold Wallet Using a Linux USB (more secure)
 
@@ -159,7 +159,7 @@ Reconnect to the internet.
 
 Format the bootable usb, or even better smash it to smithereens using a hammer.
 
-Congradulations! You have sucessfully generated a paper wallet.
+Congratulations! You have sucessfully generated a paper wallet.
 
 ### Conclusion
 
