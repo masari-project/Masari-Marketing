@@ -355,3 +355,7 @@ and it will show you each account with it's corresponding balance.
 `payment_id` is used to generate a random payment ID, useful for knowing who a specific payment came from
 
 `wallet_info` displays basic info about your wallet, like name and address
+
+### Conclusion
+
+This concludes the Masari wallet activity. Enjoy transferring or hodling your Masari using the CLI wallet!
