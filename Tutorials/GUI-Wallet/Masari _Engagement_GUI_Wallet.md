@@ -28,7 +28,7 @@ When you click this icon, you will be given a mnemonic seed. This list of words 
 
 **Choosing a Password**
 
-AFter writing down your mnemonic seed, you will be prompted to choose a password for your wallet.
+After writing down your mnemonic seed, you will be prompted to choose a password for your wallet.
 
 ![password](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/GUI-Wallet/images/password.jpg)
 
@@ -68,7 +68,7 @@ For most transactions, keep the 'Transaction Priority' as the default.
 
 To receive funds, click on the 'Receive' tab on the left sidebar. When you do this, you will see an address that starts with a 5.
 
-1{recieve](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/GUI-Wallet/images/recieve.jpg)
+!{recieve](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/GUI-Wallet/images/recieve.jpg)
 
 You can click the clipboard on the right of the address to automatically copy the address to your computer’s clipboard. Alternativley, the QR code on this screen is a visual representation of your address, copy it to signs and cards to receive funds in your physical store.
 
