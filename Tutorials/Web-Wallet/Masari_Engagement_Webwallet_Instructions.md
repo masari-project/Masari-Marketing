@@ -128,4 +128,4 @@ The network page lists several stats about the Masari network.
 
 ![network page](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/network%20stats%20page.PNG)
 
-This concludes the Masari wallet activity. Enjoy having Masari readily available via the web!
+This concludes the Masari wallet activity. Enjoy having Masari readily available via the web! If you have any questions, hop on any Masari community and ask for help.
