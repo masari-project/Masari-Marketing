@@ -358,4 +358,4 @@ and it will show you each account with it's corresponding balance.
 
 ### Conclusion
 
-This concludes the Masari wallet activity. Enjoy transferring or hodling your Masari using the CLI wallet!
+This concludes the Masari wallet activity. Enjoy transferring or hodling your Masari using the CLI wallet! If you have any questions, hop on any Masari community and ask for help.
