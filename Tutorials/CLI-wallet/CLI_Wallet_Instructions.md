@@ -167,7 +167,7 @@ or
 
 ### Using the block explorer
 
-The block explorer at https://msrchain.net/ can be used to decode outputs (check if you have money coming in to an
+The block explorer at [https://explorer.getmasari.org](https://explorer.getmasari.org) can be used to decode outputs (check if you have money coming in to an
 address) and prove sending (prove that you sent money out to an address). You'll need to get some info from your CLI 
 wallet first, though. To decode outputs, you'll need the address where you're expecting funds (which you can get to by 
 doing `address` in the corresponding account) and the private viewkey. Doing
