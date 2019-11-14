@@ -83,7 +83,7 @@ in a new terminal window:
 
 * import with spend key
 
-`./masari-wallet-cli --generate-from-view-key <wallet name>`
+`./masari-wallet-cli --generate-from-spend-key <wallet name>`
 
 * import with 25 word mnemonic phrase
 
